@@ -9,7 +9,7 @@ const bot = new Discord.Client({
 bot.on("ready", async() => {
 	console.log(`${bot.user.username} is online`);
 
-	bot.user.setActivity("On this dick!");
+	bot.user.setActivity("I am Online!");
 });
 
 
